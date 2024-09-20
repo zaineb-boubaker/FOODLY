@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOP</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+
+    <section>
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Start Bootsrap</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li> -->
+              </ul>
+              <form class="d-flex" role="search">
+                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                <button class="btn btn-outline-success" type="submit">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-cart-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                    />
+                  </svg>
+                  Cart
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-0-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895"
+                    />
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.012 4.158c1.858 0 2.96-1.582 2.96-3.99V7.84c0-2.426-1.079-3.996-2.936-3.996-1.864 0-2.965 1.588-2.965 3.996v.328c0 2.42 1.09 3.99 2.941 3.99"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <!-- header section -->
+
+    <!-- main section -->
+
+    <main>
+      <div id="hero">
+        <h1>Shop In Style</h1>
+        <p>With This Shop Homepage Template</p>
+      </div>
+
+      <div id="cards">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-911049440-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Fancy Product</h5>
+                  <p class="card-text">$40.00-$80.00</p>
+                  <br /><br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-1065329058-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Special Item</h5>
+                  <div id="images">
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                  </div>
+
+                  <p class="card-text"><del>$20.00</del>-$18.00</p>
+                  <br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-515915980-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sale Item</h5>
+                  <p class="card-text"><del>$50.00</del>-$25.00</p>
+                  <br /><br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-533714204-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Popular Item</h5>
+                  <div id="images">
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                  </div>
+                  <p class="card-text">$50.00</p>
+                  <br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- hneeeee -->
+
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-911049440-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Fancy Product</h5>
+                  <p class="card-text">$40.00-$80.00</p>
+                  <br /><br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-1065329058-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Special Item</h5>
+                  <div id="images">
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                  </div>
+
+                  <p class="card-text"><del>$20.00</del>-$18.00</p>
+                  <br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-515915980-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sale Item</h5>
+                  <p class="card-text"><del>$50.00</del>-$25.00</p>
+                  <br /><br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-lg-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/istockphoto-533714204-612x612 (1).jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Popular Item</h5>
+                  <div id="images">
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                    <img src="./assets/etoile.png" alt="" />
+                  </div>
+                  <p class="card-text">$50.00</p>
+                  <br />
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- </div> hneeeee -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- main section -->
+
+    <!-- footer -->
+
+    <footer>
+      <div id="footerr"></div>
+    </footer>
+  </body>
+</html>
